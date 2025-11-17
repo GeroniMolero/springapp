@@ -1,0 +1,37 @@
+# Directorios de compilación y salida
+/target/
+/bin/
+/build/
+
+# Archivos de configuración del IDE
+/.classpath
+/.project
+/.settings/
+/*.launch
+
+# Archivos temporales del sistema
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Archivos de Maven
+/.mvn/wrapper/maven-wrapper.jar
+!**/pom.xml
+
+# Archivos de paquetes y librerías externas
+*.war
+*.jar
+
+# Archivos de cobertura de test
+/coverage/
+
+# Archivos de Spring Tool Suite
+/.apt_generated/
+/.springBeans
+
+# Archivos de IntelliJ IDEA (por si alguien usa IDEA)
+/.idea/
+/*.iml
+/out/
