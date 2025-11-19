@@ -50,6 +50,21 @@
       <version>4.13.2</version>
       <scope>test</scope>
     </dependency>
+
+        <!-- JSTL API -->
+    <dependency>
+      <groupId>javax.servlet.jsp.jstl</groupId>
+      <artifactId>javax.servlet.jsp.jstl-api</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+
+    <!-- Implementación de JSTL -->
+    <dependency>
+      <groupId>org.apache.taglibs</groupId>
+      <artifactId>taglibs-standard-impl</artifactId>
+      <version>1.2.5</version>
+    </dependency>
+
   </dependencies>
 
   <build>

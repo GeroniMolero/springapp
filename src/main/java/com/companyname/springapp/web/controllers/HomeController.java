@@ -13,7 +13,7 @@ public class HomeController {
 
     @RequestMapping("/")
     public ModelAndView home() {
-        logger.info("Returning index view");
+        logger.info("Returning to hello view");
         return new ModelAndView("index");
     }
 }

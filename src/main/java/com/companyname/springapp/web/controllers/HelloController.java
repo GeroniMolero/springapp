@@ -5,6 +5,7 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+import java.util.Date;
 
 @Controller
 public class HelloController {
@@ -13,7 +14,8 @@ public class HelloController {
 
     @RequestMapping(value="/hello.htm")
     public ModelAndView handleRequest() {
-        logger.info("Returning hello view");
-        return new ModelAndView("hello");
+        String now = new Date().toString();
+        logger.info("Returning hello view with" + now);
+        return new ModelAndView("hello", "now", now);
     }
 }
