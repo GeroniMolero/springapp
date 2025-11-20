@@ -2,8 +2,10 @@ package com.companyname.springapp.business.services;
 
 import java.util.List;
 
-import com.companyname.springapp.business.entities.Product;
+import org.springframework.stereotype.Service;
 
+import com.companyname.springapp.business.entities.Product;
+@Service
 public class SimpleProductManager implements ProductManager {
 
     private List<Product> products;
